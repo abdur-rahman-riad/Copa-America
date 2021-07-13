@@ -1,4 +1,74 @@
+/* ---------------------------
+        Common Design 
+----------------------------*/
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+}
+/* ---------------------------
+        Header Design 
+----------------------------*/
+header{
+    height: 650px;
+    background-color: #2D25A0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+/* Nav Bar Start */
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 8px 18px;
+    border-radius: 8px;
+}
+.nav-item a:hover{
+    background-color: teal;
+}
+.login{
+    display: flex;
+    align-items: center;
+    background-color: crimson;
+    font-size: 16px;
+    padding:0 5px;
+    height: 45px;
+    width: 100px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.login img{
+    height: 24px;
+    width: 24px;
+}
+
+/* Header Banner Start */
+.header-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.header-photo img{
+    width: 100%;
+}
+.header-title h1{
+    font-size: 64px;
+    color: white;
+    font-weight: 700;
+}
+.live-btn{
+    height: 45px;
+    width: 170px;
+    padding: 10px 25px;
+    border-radius: 8px;
+    color: white;
+    background-color: crimson;
+    text-decoration: none;
 }
