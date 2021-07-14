@@ -98,12 +98,12 @@ header{
     grid-row-gap: 30px;
 }
 .player{
-    height: 475px;
+    /* height: 475px; */
     /* width: 300px; */
     background-color: white;
     box-shadow: var(--card-shadow);
     border-radius: 10px;
-    padding: 18px;
+    padding: 20px;
     text-align: justify;
 }
 .player img{
@@ -221,10 +221,6 @@ header{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-row-gap: 30px;
-    }
-    .player{
-        height: 500px;
-        /* width: 300px; */
     }
 
     /* Highlight Responsive */
