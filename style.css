@@ -89,7 +89,7 @@ header{
 
 /* Player Section Design */
 .player-section{
-    margin-bottom: 50px;
+    margin:50px 0;
 }
 .players{
     display: grid;
@@ -99,7 +99,7 @@ header{
 }
 .player{
     height: 475px;
-    width: 300px;
+    /* width: 300px; */
     background-color: white;
     box-shadow: var(--card-shadow);
     border-radius: 10px;
@@ -201,7 +201,6 @@ header{
 @media only screen and (max-width: 768px) {
     .container{
         width: 90%;
-        margin: auto;
     }
     .nav-bar{
         display: none;
@@ -223,11 +222,12 @@ header{
         grid-template-columns: repeat(1, 1fr);
         grid-row-gap: 30px;
     }
+    .player{
+        height: 500px;
+        /* width: 300px; */
+    }
 
     /* Highlight Responsive */
-    .highlight-section{
-        width: 80%;
-    }
     .highlight-content{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -256,6 +256,6 @@ header{
 /* ------------------------------------------
         Responsive for Tablet Device 
 --------------------------------------------*/
-@media only screen and (min-width:768px) and (max-width:1024px) {
+@media only screen and (max-width: 1024px) {
     
 }
