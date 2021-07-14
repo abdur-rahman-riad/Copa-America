@@ -14,7 +14,6 @@ body{
         Header Design 
 ----------------------------*/
 header{
-    /* height: 650px; */
     background-color: #2D25A0;
     margin-bottom: 70px;
 }
@@ -138,8 +137,6 @@ header{
     grid-row-gap: 30px;
 }
 .player{
-    /* height: 475px; */
-    /* width: 300px; */
     background-color: white;
     box-shadow: var(--card-shadow);
     border-radius: 10px;
@@ -420,8 +417,6 @@ header{
         grid-template-columns: repeat(2, 1fr);
     }
     .player{
-        /* height: 475px; */
-        /* width: 300px; */
         background-color: white;
         box-shadow: var(--card-shadow);
         border-radius: 10px;
