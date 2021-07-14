@@ -61,6 +61,7 @@ header{
 .header-content{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
     padding:35px 0;
 }
 .header-photo img{
@@ -192,4 +193,69 @@ header{
 }
 .copyright a:hover{
     color: teal;
+}
+
+/* ------------------------------------------
+        Responsive for Mobile Device 
+--------------------------------------------*/
+@media only screen and (max-width: 768px) {
+    .container{
+        width: 90%;
+        margin: auto;
+    }
+    .nav-bar{
+        display: none;
+    }
+    /* Header Responsive */
+    .header-content{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 50px;
+        padding:25px 0;
+    }
+    .header-title h1{
+        font-size: 36px;
+    }
+
+    /* Player Responsive */
+    .players{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 30px;
+    }
+
+    /* Highlight Responsive */
+    .highlight-section{
+        width: 80%;
+    }
+    .highlight-content{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 50px;
+        padding: 10px 0;
+    }
+    .highlight-info h1{
+        font-size: 28px;
+    }
+    .highlight-photo img{
+        width: 100%;
+        height: 220px;
+        border-radius: 10px;
+    }
+
+    /* Footer Responsive */
+    .footer-logo img{
+        width: 100%;
+        height: 80px;
+    }
+    .copyright{
+        text-align: center;
+    }
+}
+
+/* ------------------------------------------
+        Responsive for Tablet Device 
+--------------------------------------------*/
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    
 }
