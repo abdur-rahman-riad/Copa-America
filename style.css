@@ -84,6 +84,8 @@ header{
 /* ---------------------------
         Main Part Design 
 ----------------------------*/
+
+/* Player Section Design */
 .player-section{
     margin-bottom: 50px;
 }
@@ -114,4 +116,31 @@ header{
     padding: 5px 12px;
     border-radius: 5px;
     box-shadow:var(--btn-shadow) ;
+}
+
+/* Highlight Section Design */
+.highlight-section{
+    box-shadow: var(--card-shadow);
+    width: 80%;
+    margin: 100px auto;
+    padding: 0 4%;
+    border-radius: 10px;
+}
+.highlight-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 50px;
+    align-items: center;
+    padding: 35px 0;
+}
+.highlight-info p{
+    text-align: justify;
+}
+.highlight-info h1{
+    font-size: 48px;
+}
+.highlight-photo img{
+    width: 100%;
+    height: 380px;
+    border-radius: 10px;
 }
