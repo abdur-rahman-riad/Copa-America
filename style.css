@@ -4,6 +4,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    background-color: #fff5ff;
 }
 :root{
     --card-shadow:3px 3px 12px #cecece;
@@ -42,18 +43,18 @@ header{
 .login{
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: crimson;
     font-size: 16px;
-    padding:0 5px;
-    height: 45px;
-    width: 100px;
     border-radius: 8px;
     cursor: pointer;
     box-shadow:var(--btn-shadow) ;
 }
 .login img{
-    height: 24px;
-    width: 24px;
+    height: 25px;
+    width: 25px;
+    margin-right: -15px;
+    padding-left: 10px;
 }
 
 /* Header Banner Start */
@@ -125,6 +126,7 @@ header{
     margin: 100px auto;
     padding: 0 4%;
     border-radius: 10px;
+    background-color: white;
 }
 .highlight-content{
     display: grid;
@@ -143,4 +145,51 @@ header{
     width: 100%;
     height: 380px;
     border-radius: 10px;
+}
+
+/* ---------------------------
+        Footer Part Design 
+----------------------------*/
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.social-media a{
+    padding: 0 10px;
+    text-decoration: none;
+}
+.fa-instagram{
+    color:  #e95950 ;
+}
+.fa-globe{
+    color: 	#175dce;
+}
+.fa-twitter{
+    color: #00acee;
+}
+.fa-youtube{
+    color: #c4302b;
+}
+ .socal-icon{
+    font-size: 30px;
+    filter: grayscale(100%);
+}
+.socal-icon:hover{
+    filter: grayscale(0%);
+}
+.footer-logo img{
+    width: 480px;
+    height: 110px;
+}
+.copyright{
+    color: gray;
+}
+.copyright a{
+    text-decoration: none;
+    color: gray;
+}
+.copyright a:hover{
+    color: teal;
 }
