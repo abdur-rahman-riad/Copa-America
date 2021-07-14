@@ -13,7 +13,7 @@ body{
         Header Design 
 ----------------------------*/
 header{
-    height: 650px;
+    /* height: 650px; */
     background-color: #2D25A0;
     margin-bottom: 70px;
 }
@@ -60,6 +60,7 @@ header{
 .header-content{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    padding:35px 0;
 }
 .header-photo img{
     width: 100%;
